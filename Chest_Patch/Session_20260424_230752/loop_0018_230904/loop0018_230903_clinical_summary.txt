@@ -1,0 +1,39 @@
+====================================================================
+  ECG REAL-TIME CLINICAL SUMMARY
+  Loop 0018     2026-04-24  23:08:57
+====================================================================
+
+  Feature                  Value  Unit  Normal Range   Status    
+  -----------------------------------------------------------------
+  Heart Rate              102.04  bpm   60-100         MODERATE  
+  P Amplitude              18.89  mV    0.050-0.25     CRITICAL  
+  P Duration              180.00  ms    80-100         CRITICAL  
+  PR Interval             260.00  ms    120-200        MODERATE  
+  QRS Duration            120.00  ms    60-100         MODERATE  
+  QRS Amplitude           671.85  mV    0.50-2.0       CRITICAL  
+  T Amplitude             376.25  mV    -0.50-0.50     CRITICAL  
+  QTc (Bazett)            573.80  ms    350-450        MODERATE  
+  ST Deviation           -367.59  mV    -0.10-0.10     CRITICAL  
+  Q-wave Depth            903.62  mV    ---            ---       
+  Q-wave Duration          31.33  ms    ---            ---       
+  RR RMSSD                206.89  ms    ---            ---       
+  -----------------------------------------------------------------
+  Wideband SNR              -2.0  dB    >10=ok         POOR      
+  QRS SNR (clinical)        19.1  dB    >20=good       MODERATE  
+
+  CLINICAL FINDINGS
+  -----------------------------------------------------------------
+  [ABNORMAL]  Poor hardware SNR=-2.0dB (check electrodes/circuit)
+  [ABNORMAL]  Poor clinical SNR=19.1dB (QRS detection unreliable)
+  [ABNORMAL]  Tachycardia (102 bpm)
+  [ABNORMAL]  Tall P wave (R. atrial enlargement)
+  [ABNORMAL]  Wide P wave (L. atrial enlargement)
+  [ABNORMAL]  Prolonged PR (1st-degree AV block)
+  [ABNORMAL]  Wide QRS (BBB/ventricular rhythm)
+  [ABNORMAL]  Tall R wave (LVH)
+  [ABNORMAL]  ST depression -367.590mV (ischaemia?)
+  [ABNORMAL]  Tall T wave (hyperkalaemia)
+  [ABNORMAL]  Prolonged QTc 0.574s (TdP risk)
+  [ABNORMAL]  High RR variability RMSSD=207ms (AF?)
+
+====================================================================

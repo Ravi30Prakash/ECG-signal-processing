@@ -1,0 +1,37 @@
+====================================================================
+  ECG REAL-TIME CLINICAL SUMMARY
+  Loop 0048     2026-04-25  16:11:40
+====================================================================
+
+  Feature                  Value  Unit  Normal Range   Status    
+  -----------------------------------------------------------------
+  Heart Rate               79.95  bpm   60-100         NORMAL    
+  P Amplitude               1.39  mV    0.050-0.25     CRITICAL  
+  P Duration              180.00  ms    80-100         CRITICAL  
+  PR Interval             260.00  ms    120-200        MODERATE  
+  QRS Duration            120.00  ms    60-100         MODERATE  
+  QRS Amplitude            12.42  mV    0.50-2.0       CRITICAL  
+  T Amplitude               6.49  mV    -0.50-0.50     CRITICAL  
+  QTc (Bazett)            507.90  ms    350-450        MODERATE  
+  ST Deviation             -7.96  mV    -0.10-0.10     CRITICAL  
+  Q-wave Depth              4.02  mV    ---            ---       
+  Q-wave Duration          30.20  ms    ---            ---       
+  RR RMSSD                293.27  ms    ---            ---       
+  -----------------------------------------------------------------
+  Wideband SNR              -5.9  dB    >10=ok         POOR      
+  QRS SNR (clinical)        21.9  dB    >20=good       GOOD      
+
+  CLINICAL FINDINGS
+  -----------------------------------------------------------------
+  [ABNORMAL]  Poor hardware SNR=-5.9dB (check electrodes/circuit)
+  [ABNORMAL]  Tall P wave (R. atrial enlargement)
+  [ABNORMAL]  Wide P wave (L. atrial enlargement)
+  [ABNORMAL]  Prolonged PR (1st-degree AV block)
+  [ABNORMAL]  Wide QRS (BBB/ventricular rhythm)
+  [ABNORMAL]  Tall R wave (LVH)
+  [ABNORMAL]  ST depression -7.961mV (ischaemia?)
+  [ABNORMAL]  Tall T wave (hyperkalaemia)
+  [ABNORMAL]  Prolonged QTc 0.508s (TdP risk)
+  [ABNORMAL]  High RR variability RMSSD=293ms (AF?)
+
+====================================================================

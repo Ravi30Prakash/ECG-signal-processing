@@ -1,0 +1,37 @@
+====================================================================
+  ECG REAL-TIME CLINICAL SUMMARY
+  Loop 0086     2026-04-17  15:37:29
+====================================================================
+
+  Feature                  Value  Unit  Normal Range   Status    
+  -----------------------------------------------------------------
+  Heart Rate               92.94  bpm   60-100         NORMAL    
+  P Amplitude               2.16  mV    0.050-0.25     CRITICAL  
+  P Duration              180.00  ms    80-100         CRITICAL  
+  PR Interval             260.00  ms    120-200        MODERATE  
+  QRS Duration            120.00  ms    60-100         MODERATE  
+  QRS Amplitude             6.99  mV    0.50-2.0       CRITICAL  
+  T Amplitude              -4.94  mV    -0.50-0.50     CRITICAL  
+  QTc (Bazett)            547.62  ms    350-450        MODERATE  
+  ST Deviation             -1.36  mV    -0.10-0.10     CRITICAL  
+  Q-wave Depth              9.39  mV    ---            ---       
+  Q-wave Duration          25.67  ms    ---            ---       
+  RR RMSSD                176.58  ms    ---            ---       
+  -----------------------------------------------------------------
+  Wideband SNR             -26.4  dB    >10=ok         POOR      
+  QRS SNR (clinical)        14.9  dB    >20=good       POOR      
+
+  CLINICAL FINDINGS
+  -----------------------------------------------------------------
+  [ABNORMAL]  Poor hardware SNR=-26.4dB (check electrodes/circuit)
+  [ABNORMAL]  Poor clinical SNR=14.9dB (QRS detection unreliable)
+  [ABNORMAL]  Tall P wave (R. atrial enlargement)
+  [ABNORMAL]  Wide P wave (L. atrial enlargement)
+  [ABNORMAL]  Prolonged PR (1st-degree AV block)
+  [ABNORMAL]  Wide QRS (BBB/ventricular rhythm)
+  [ABNORMAL]  Tall R wave (LVH)
+  [ABNORMAL]  ST depression -1.358mV (ischaemia?)
+  [ABNORMAL]  T-wave inversion (ischaemia/PE)
+  [ABNORMAL]  Prolonged QTc 0.548s (TdP risk)
+
+====================================================================

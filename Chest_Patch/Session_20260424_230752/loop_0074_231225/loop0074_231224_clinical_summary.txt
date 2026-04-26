@@ -1,0 +1,28 @@
+====================================================================
+  ECG REAL-TIME CLINICAL SUMMARY
+  Loop 0074     2026-04-24  23:12:20
+====================================================================
+
+  Feature                  Value  Unit  Normal Range   Status    
+  -----------------------------------------------------------------
+  Heart Rate                 N/A  bpm   60-100         N/A       
+  P Amplitude                N/A  mV    0.050-0.25     N/A       
+  P Duration                 N/A  ms    80-100         N/A       
+  PR Interval                N/A  ms    120-200        N/A       
+  QRS Duration               N/A  ms    60-100         N/A       
+  QRS Amplitude              N/A  mV    0.50-2.0       N/A       
+  T Amplitude                N/A  mV    -0.50-0.50     N/A       
+  QTc (Bazett)               N/A  ms    350-450        N/A       
+  ST Deviation               N/A  mV    -0.10-0.10     N/A       
+  Q-wave Depth               N/A  mV    ---            N/A       
+  Q-wave Duration            N/A  ms    ---            N/A       
+  RR RMSSD                   N/A  ms    ---            N/A       
+  -----------------------------------------------------------------
+  Wideband SNR               4.1  dB    >10=ok         POOR      
+  QRS SNR (clinical)         N/A  dB    >20=good       POOR      
+
+  CLINICAL FINDINGS
+  -----------------------------------------------------------------
+  [ABNORMAL]  Poor hardware SNR=4.1dB (check electrodes/circuit)
+
+====================================================================

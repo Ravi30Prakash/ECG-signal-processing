@@ -1,0 +1,37 @@
+====================================================================
+  ECG REAL-TIME CLINICAL SUMMARY
+  Loop 0090     2026-04-25  15:31:08
+====================================================================
+
+  Feature                  Value  Unit  Normal Range   Status    
+  -----------------------------------------------------------------
+  Heart Rate              122.95  bpm   60-100         MODERATE  
+  P Amplitude               0.89  mV    0.050-0.25     CRITICAL  
+  P Duration              180.00  ms    80-100         CRITICAL  
+  PR Interval             260.00  ms    120-200        MODERATE  
+  QRS Duration            120.00  ms    60-100         MODERATE  
+  QRS Amplitude             0.94  mV    0.50-2.0       NORMAL    
+  T Amplitude              -0.65  mV    -0.50-0.50     MODERATE  
+  QTc (Bazett)            629.86  ms    350-450        MODERATE  
+  ST Deviation              0.31  mV    -0.10-0.10     CRITICAL  
+  Q-wave Depth              0.32  mV    ---            ---       
+  Q-wave Duration          14.00  ms    ---            ---       
+  RR RMSSD                   N/A  ms    ---            N/A       
+  -----------------------------------------------------------------
+  Wideband SNR              -8.3  dB    >10=ok         POOR      
+  QRS SNR (clinical)         4.0  dB    >20=good       POOR      
+
+  CLINICAL FINDINGS
+  -----------------------------------------------------------------
+  [ABNORMAL]  Poor hardware SNR=-8.3dB (check electrodes/circuit)
+  [ABNORMAL]  Poor clinical SNR=4.0dB (QRS detection unreliable)
+  [ABNORMAL]  Tachycardia (123 bpm)
+  [ABNORMAL]  Tall P wave (R. atrial enlargement)
+  [ABNORMAL]  Wide P wave (L. atrial enlargement)
+  [ABNORMAL]  Prolonged PR (1st-degree AV block)
+  [ABNORMAL]  Wide QRS (BBB/ventricular rhythm)
+  [ABNORMAL]  ST elevation +0.309mV (STEMI?)
+  [ABNORMAL]  T-wave inversion (ischaemia/PE)
+  [ABNORMAL]  Prolonged QTc 0.630s (TdP risk)
+
+====================================================================

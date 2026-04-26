@@ -1,0 +1,38 @@
+====================================================================
+  ECG REAL-TIME CLINICAL SUMMARY
+  Loop 0082     2026-04-25  16:13:52
+====================================================================
+
+  Feature                  Value  Unit  Normal Range   Status    
+  -----------------------------------------------------------------
+  Heart Rate               90.34  bpm   60-100         NORMAL    
+  P Amplitude               1.71  mV    0.050-0.25     CRITICAL  
+  P Duration              180.00  ms    80-100         CRITICAL  
+  PR Interval             260.00  ms    120-200        MODERATE  
+  QRS Duration            120.00  ms    60-100         MODERATE  
+  QRS Amplitude             5.69  mV    0.50-2.0       CRITICAL  
+  T Amplitude               6.50  mV    -0.50-0.50     CRITICAL  
+  QTc (Bazett)            539.91  ms    350-450        MODERATE  
+  ST Deviation              0.75  mV    -0.10-0.10     CRITICAL  
+  Q-wave Depth              3.49  mV    ---            ---       
+  Q-wave Duration          27.83  ms    ---            ---       
+  RR RMSSD                420.16  ms    ---            ---       
+  -----------------------------------------------------------------
+  Wideband SNR              -5.5  dB    >10=ok         POOR      
+  QRS SNR (clinical)        11.5  dB    >20=good       POOR      
+
+  CLINICAL FINDINGS
+  -----------------------------------------------------------------
+  [ABNORMAL]  Poor hardware SNR=-5.5dB (check electrodes/circuit)
+  [ABNORMAL]  Poor clinical SNR=11.5dB (QRS detection unreliable)
+  [ABNORMAL]  Tall P wave (R. atrial enlargement)
+  [ABNORMAL]  Wide P wave (L. atrial enlargement)
+  [ABNORMAL]  Prolonged PR (1st-degree AV block)
+  [ABNORMAL]  Wide QRS (BBB/ventricular rhythm)
+  [ABNORMAL]  Tall R wave (LVH)
+  [ABNORMAL]  ST elevation +0.747mV (STEMI?)
+  [ABNORMAL]  Tall T wave (hyperkalaemia)
+  [ABNORMAL]  Prolonged QTc 0.540s (TdP risk)
+  [ABNORMAL]  High RR variability RMSSD=420ms (AF?)
+
+====================================================================

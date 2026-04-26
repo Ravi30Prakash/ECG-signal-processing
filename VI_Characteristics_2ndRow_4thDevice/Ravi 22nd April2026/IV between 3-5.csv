@@ -1,0 +1,73 @@
+﻿	Common Settings,	
+	.Source/Sweep Points,	41
+	.Repeat,	0
+	.Source to Measure Delay,	0.005
+	.Measure Window,	500 ms
+	.NPLC,	25
+	.,	
+	..Instrument,	My 2634B
+	...Model,	2634B
+	...Serial Number,	4429128
+	..Source Settings,	
+	...Mode,	DC
+	...Function,	Voltage Sweep
+	...Type,	Linear
+	...Dual Sweep,	Disabled
+	...Range,	Auto
+	...Start,	0
+	...Stop,	5
+	...Step,	0.125
+	...Limit,	0.1
+	..Measure Settings,	
+	...Voltage,	Measured
+	...Current,	True
+	...Range,	Auto
+	...Minimum Range,	1E-10
+	...Resistance,	False
+	...Power,	False
+	...Auto Zero,	On
+	..Instrument Settings,	
+	...Input Terminals,	Rear
+	...Sense,	2-Wire
+	...Output Off,	Normal
+	...High Capacitance,	False
+	.Channel,	SMU-2
+	..Instrument,	My 2634B
+	...Model,	2634B
+	...Serial Number,	4429128
+	..Source Settings,	
+	...Mode,	DC
+	...Function,	Voltage Sweep
+	...Type,	Linear
+	...Dual Sweep,	Disabled
+	...Range,	Auto
+	...Start,	-5
+	...Stop,	5
+	...Step,	0.25
+	...Limit,	0.1
+	..Measure Settings,	
+	...Voltage,	Measured
+	...Current,	True
+	...Range,	Auto
+	...Minimum Range,	1E-10
+	...Resistance,	False
+	...Power,	False
+	...Auto Zero,	On
+	..Instrument Settings,	
+	...Input Terminals,	Rear
+	...Sense,	2-Wire
+	...Output Off,	Normal
+	...High Capacitance,	False
+
+"Index","SMU-2 Time (s)","SMU-2 Voltage (V)","SMU-2 Current (A)"
+"1","0","-0.476474761962891","-0.099152684211731"
+"2","1.506641","-0.476326942443848","-0.0991464853286743"
+"3","3.013299","-0.476205348968506","-0.0991477966308594"
+"4","4.519944","-0.476033687591553","-0.0991668701171875"
+"5","6.026587","-0.47630786895752","-0.0991307497024536"
+
+"Min","0","-0.476474761962891","-0.0991668701171875"
+"Max","6.026587","-0.476033687591553","-0.0991307497024536"
+"Mean","3.0132942","-0.476269721984863","-0.0991489171981812"
+"StdDev","2.38221918173049","0.00016326886192651","1.29781090048206E-05"
+"CV","79.0569729875859%","-0.0342807561324881%","-0.0130895115867777%"

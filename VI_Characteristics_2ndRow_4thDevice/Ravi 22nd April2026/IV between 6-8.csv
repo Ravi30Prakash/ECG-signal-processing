@@ -1,0 +1,78 @@
+﻿	Common Settings,	
+	.Source/Sweep Points,	41
+	.Repeat,	0
+	.Source to Measure Delay,	0.005
+	.Measure Window,	500 ms
+	.NPLC,	25
+	.,	
+	..Instrument,	My 2634B
+	...Model,	2634B
+	...Serial Number,	4429128
+	..Source Settings,	
+	...Mode,	DC
+	...Function,	Voltage Sweep
+	...Type,	Linear
+	...Dual Sweep,	Disabled
+	...Range,	Auto
+	...Start,	0
+	...Stop,	5
+	...Step,	0.125
+	...Limit,	0.1
+	..Measure Settings,	
+	...Voltage,	Measured
+	...Current,	True
+	...Range,	Auto
+	...Minimum Range,	1E-10
+	...Resistance,	False
+	...Power,	False
+	...Auto Zero,	On
+	..Instrument Settings,	
+	...Input Terminals,	Rear
+	...Sense,	2-Wire
+	...Output Off,	Normal
+	...High Capacitance,	False
+	.Channel,	SMU-2
+	..Instrument,	My 2634B
+	...Model,	2634B
+	...Serial Number,	4429128
+	..Source Settings,	
+	...Mode,	DC
+	...Function,	Voltage Sweep
+	...Type,	Linear
+	...Dual Sweep,	Disabled
+	...Range,	Auto
+	...Start,	-5
+	...Stop,	5
+	...Step,	0.25
+	...Limit,	0.1
+	..Measure Settings,	
+	...Voltage,	Measured
+	...Current,	True
+	...Range,	Auto
+	...Minimum Range,	1E-10
+	...Resistance,	False
+	...Power,	False
+	...Auto Zero,	On
+	..Instrument Settings,	
+	...Input Terminals,	Rear
+	...Sense,	2-Wire
+	...Output Off,	Normal
+	...High Capacitance,	False
+
+"Index","SMU-2 Time (s)","SMU-2 Voltage (V)","SMU-2 Current (A)"
+"1","0","-0.432789325714111","-0.0991613864898682"
+"2","1.506726","-0.43222188949585","-0.0991667509078979"
+"3","3.013366","-0.43212890625","-0.099169135093689"
+"4","4.520021","-0.432190895080566","-0.0991631746292114"
+"5","6.026659","-0.432205200195313","-0.0991553068161011"
+"6","7.533462","-0.432102680206299","-0.0991520881652832"
+"7","9.040093","-0.432045459747314","-0.099150538444519"
+"8","10.546727","-0.432026386260986","-0.0991437435150146"
+"9","12.053386","-0.432116985321045","-0.0991610288619995"
+"10","13.560047","-0.432090759277344","-0.0991486310958862"
+
+"Min","0","-0.432789325714111","-0.099169135093689"
+"Max","13.560047","-0.432026386260986","-0.0991437435150146"
+"Mean","6.7800487","-0.432191848754883","-0.099157178401947"
+"StdDev","4.56167577592397","0.000219748421048285","8.3675241318066E-06"
+"CV","67.2808703560488%","-0.0508451100318911%","-0.00843864687021217%"

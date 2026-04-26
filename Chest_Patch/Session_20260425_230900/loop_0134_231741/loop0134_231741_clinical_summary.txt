@@ -1,0 +1,39 @@
+====================================================================
+  ECG REAL-TIME CLINICAL SUMMARY
+  Loop 0134     2026-04-25  23:17:36
+====================================================================
+
+  Feature                  Value  Unit  Normal Range   Status    
+  -----------------------------------------------------------------
+  Heart Rate              100.73  bpm   60-100         MODERATE  
+  P Amplitude              95.01  mV    0.050-0.25     CRITICAL  
+  P Duration              180.00  ms    80-100         CRITICAL  
+  PR Interval             260.00  ms    120-200        MODERATE  
+  QRS Duration            120.00  ms    60-100         MODERATE  
+  QRS Amplitude           520.03  mV    0.50-2.0       CRITICAL  
+  T Amplitude            -184.36  mV    -0.50-0.50     CRITICAL  
+  QTc (Bazett)            570.10  ms    350-450        MODERATE  
+  ST Deviation             42.91  mV    -0.10-0.10     CRITICAL  
+  Q-wave Depth            471.74  mV    ---            ---       
+  Q-wave Duration          28.00  ms    ---            ---       
+  RR RMSSD                364.98  ms    ---            ---       
+  -----------------------------------------------------------------
+  Wideband SNR              -7.0  dB    >10=ok         POOR      
+  QRS SNR (clinical)         9.3  dB    >20=good       POOR      
+
+  CLINICAL FINDINGS
+  -----------------------------------------------------------------
+  [ABNORMAL]  Poor hardware SNR=-7.0dB (check electrodes/circuit)
+  [ABNORMAL]  Poor clinical SNR=9.3dB (QRS detection unreliable)
+  [ABNORMAL]  Tachycardia (101 bpm)
+  [ABNORMAL]  Tall P wave (R. atrial enlargement)
+  [ABNORMAL]  Wide P wave (L. atrial enlargement)
+  [ABNORMAL]  Prolonged PR (1st-degree AV block)
+  [ABNORMAL]  Wide QRS (BBB/ventricular rhythm)
+  [ABNORMAL]  Tall R wave (LVH)
+  [ABNORMAL]  ST elevation +42.910mV (STEMI?)
+  [ABNORMAL]  T-wave inversion (ischaemia/PE)
+  [ABNORMAL]  Prolonged QTc 0.570s (TdP risk)
+  [ABNORMAL]  High RR variability RMSSD=365ms (AF?)
+
+====================================================================
